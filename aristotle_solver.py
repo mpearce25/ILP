@@ -21,6 +21,10 @@ A_b10 = [
     [1, 5, 10, 15], 
     [2, 6, 11]
 ]
+
+# Converting to binary matrix
+# With bin mat only the piecies in a relavant position can have a value that 
+# contributes to the 38 total
 A_b2 = []
 for l in A_b10:
     A_b2.append([1 if x in l else 0 for x in range(19)])
